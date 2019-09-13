@@ -1,3 +1,13 @@
+#' The history of an address.
+#'
+#' @param string input Bitcoin Cash address
+#' @return data frame with the general data (hystory) of the the address in both.
+#' @export
+#' @description Get the general data (hystory) of a Bitcoin Cash address.
+#' @author Vasile Adrian Bogdan Pop
+#' @examples
+#' addr_hystory(address)
+#' addr_hystory("address string here")
 addr_history <- function(address){
   base <- "https://blockdozer.com/insight-api/"
   endpoint <- "addr/"

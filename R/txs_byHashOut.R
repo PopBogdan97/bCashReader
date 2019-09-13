@@ -3,7 +3,7 @@
 #' @param string hast of the transaction outputs
 #' @return data frame with the information of a specific transaction outputs
 #' @export
-#' @description Get the all the information of a specific transaction outputs To see the description of the values retrieved visit: "https://github.com/Blockchair/Blockchair.Support/blob/master/API_DOCUMENTATION_EN.md#link_chainstats" in Dashboard/transaction
+#' @description Get the all the information of a specific transaction outputs. To see the description of the values retrieved visit: "https://github.com/Blockchair/Blockchair.Support/blob/master/API_DOCUMENTATION_EN.md#link_chainstats" in Dashboard/transaction
 #' @author Vasile Adrian Bogdan Pop
 #' @examples
 #' txs_byHashOut()
